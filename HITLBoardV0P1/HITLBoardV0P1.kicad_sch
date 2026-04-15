@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ef043e91-6391-40b5-b326-2e3f2f5d4c07")
+	(paper "B")
+	(lib_symbols)
+	(sheet
+		(at 224.79 27.94)
+		(size 63.5 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6becc135-232b-4527-b22e-5ca59c61a748")
+		(property "Sheetname" "Ethernet"
+			(at 224.79 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 224.79 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HITLBoardV0P1"
+				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 91.44)
+		(size 81.28 102.87)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f0051133-be17-4199-973a-e879d0726fce")
+		(property "Sheetname" "TMDX_Breakout"
+			(at 59.69 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TMDX_Breakout.kicad_sch"
+			(at 59.69 194.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HITLBoardV0P1"
+				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
