@@ -6,8 +6,8 @@
 	(paper "B")
 	(lib_symbols)
 	(sheet
-		(at 177.8 97.79)
-		(size 63.5 58.42)
+		(at 129.54 219.71)
+		(size 129.54 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,9 +20,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "2ec5cf77-2ed9-4949-a173-6ad09f9e1bbc")
-		(property "Sheetname" "Ethernet2"
-			(at 177.8 97.0784 0)
+		(uuid "1802981a-1ca5-49a5-8666-49bc80282853")
+		(property "Sheetname" "RaspberryPiPico"
+			(at 129.54 218.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32,8 +32,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 177.8 156.7946 0)
+		(property "Sheetfile" "RaspberryPiPico.kicad_sch"
+			(at 129.54 258.3946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,106 +41,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "ETH_10T1S_TRXN" input
-			(at 241.3 106.68 0)
-			(uuid "42f74812-3d41-454f-a503-154e61803972")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ETH_10T1S_TRXP" input
-			(at 241.3 110.49 0)
-			(uuid "226f5219-658a-42d6-9adb-cd8d09292e69")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IRQ_N_3V3" input
-			(at 177.8 114.3 180)
-			(uuid "c9e88001-8330-4954-a021-9b33b5dd64ae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RESET_N" input
-			(at 177.8 119.38 180)
-			(uuid "aecf475a-6126-4b7d-a346-695a8e08c0cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_CS_N" input
-			(at 177.8 125.73 180)
-			(uuid "f6bf1645-b6ff-466c-9aef-4802e640cb2d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_SCLK" input
-			(at 177.8 129.54 180)
-			(uuid "b3b11148-a07a-4f7f-89fe-3ddad564282b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_SDI" input
-			(at 177.8 133.35 180)
-			(uuid "cf41a7a6-989d-4cd0-b242-3c57aafc5df8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_SDO" input
-			(at 177.8 137.16 180)
-			(uuid "351884a8-c1cb-4f3d-b405-7d1cda64b2f3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WAKE_IN_3V3" input
-			(at 177.8 140.97 180)
-			(uuid "c3a8fe5f-9ce5-4748-9bcd-cc7586df9d3c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WAKE_OUT" input
-			(at 177.8 144.78 180)
-			(uuid "b62c9d1d-e270-44c9-9b44-1c4940026c7a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
@@ -187,26 +87,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "ETH_10T1S_TRXN" input
-			(at 240.03 35.56 0)
-			(uuid "44ce346e-e5e9-49f9-9fd0-ec523a7cb7ae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ETH_10T1S_TRXP" input
-			(at 240.03 39.37 0)
-			(uuid "aeea84d4-1799-4d76-b164-1bac3ef51f46")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "IRQ_N_3V3" input
@@ -289,6 +169,26 @@
 				(justify left)
 			)
 		)
+		(pin "ETH_10T1S_TRXN_N" input
+			(at 240.03 44.45 0)
+			(uuid "8316ed61-1b9a-4b0f-9bc7-342c6e22c7a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_10T1S_TRXP_P" input
+			(at 240.03 48.26 0)
+			(uuid "7e64c3c1-0515-424c-aadd-255154e4c58a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07"
@@ -298,8 +198,8 @@
 		)
 	)
 	(sheet
-		(at 287.02 99.06)
-		(size 63.5 58.42)
+		(at 290.83 25.4)
+		(size 59.69 59.69)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -312,9 +212,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "762963da-e0d6-4f34-9708-122edb8efd03")
-		(property "Sheetname" "Ethernet3"
-			(at 287.02 98.3484 0)
+		(uuid "ac70fe95-fcf0-4ed2-a566-1baee52f53b5")
+		(property "Sheetname" "Ethernet2"
+			(at 290.83 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -324,8 +224,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 287.02 158.0646 0)
+		(property "Sheetfile" "Ethernet2.kicad_sch"
+			(at 290.83 85.6746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -336,8 +236,8 @@
 			)
 		)
 		(pin "ETH_10T1S_TRXN" input
-			(at 350.52 107.95 0)
-			(uuid "ee9818f5-9f2c-4b27-b06c-eee4f88799e7")
+			(at 350.52 39.37 0)
+			(uuid "115158b4-acee-43ff-b81d-2337f679209f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,8 +246,8 @@
 			)
 		)
 		(pin "ETH_10T1S_TRXP" input
-			(at 350.52 111.76 0)
-			(uuid "38d7bdc0-31a2-4044-ab1f-6068d0be6b37")
+			(at 350.52 43.18 0)
+			(uuid "e0c7f185-7e00-40e5-aae3-a13f8d72ff6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -356,8 +256,8 @@
 			)
 		)
 		(pin "IRQ_N_3V3" input
-			(at 287.02 115.57 180)
-			(uuid "1cecbc7c-fd0d-4e09-9796-f906f40fbcee")
+			(at 290.83 43.18 180)
+			(uuid "43d99c4b-b434-44e4-86a7-803b42767c60")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -366,8 +266,8 @@
 			)
 		)
 		(pin "RESET_N" input
-			(at 287.02 120.65 180)
-			(uuid "6a5d437e-89e0-47d1-81f2-82e1825785b4")
+			(at 290.83 48.26 180)
+			(uuid "2c19b4e9-c2c6-4377-a655-a932656d0455")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,8 +276,8 @@
 			)
 		)
 		(pin "SPI_CS_N" input
-			(at 287.02 127 180)
-			(uuid "dccf7189-3378-414f-8030-6ce6d5ec009c")
+			(at 290.83 53.34 180)
+			(uuid "7c31431a-8b58-4258-aa4b-ca787b96a581")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -386,8 +286,8 @@
 			)
 		)
 		(pin "SPI_SCLK" input
-			(at 287.02 130.81 180)
-			(uuid "096115a7-a87e-4d57-a01f-4758463ee5ef")
+			(at 290.83 57.15 180)
+			(uuid "aa0475f4-6a04-4929-9f72-62ebddf59968")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,8 +296,8 @@
 			)
 		)
 		(pin "SPI_SDI" input
-			(at 287.02 134.62 180)
-			(uuid "539c2096-a434-4922-9a9e-cf077bd180d6")
+			(at 290.83 60.96 180)
+			(uuid "6eab58fa-6e2d-4509-8508-50a7a8fa17bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,8 +306,8 @@
 			)
 		)
 		(pin "SPI_SDO" input
-			(at 287.02 138.43 180)
-			(uuid "8d1317a2-548a-4656-881e-ba69d0734e42")
+			(at 290.83 64.77 180)
+			(uuid "41cbf40e-bd75-4765-b3be-af8e3895f60b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,8 +316,8 @@
 			)
 		)
 		(pin "WAKE_IN_3V3" input
-			(at 287.02 142.24 180)
-			(uuid "ee453586-4d9a-4fc9-9c2c-ae830adebc40")
+			(at 290.83 69.85 180)
+			(uuid "ef85b139-b3cf-425f-9294-e64c789edb94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,8 +326,8 @@
 			)
 		)
 		(pin "WAKE_OUT" input
-			(at 287.02 146.05 180)
-			(uuid "7ba13c78-893e-4581-ab63-eebdfaeacc85")
+			(at 290.83 74.93 180)
+			(uuid "598fb94c-7df6-435f-b6eb-97e2b4ae2dcb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -438,7 +338,7 @@
 		(instances
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07"
-					(page "6")
+					(page "4")
 				)
 			)
 		)
@@ -485,152 +385,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 285.75 26.67)
-		(size 63.5 58.42)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "f8611f72-cd1d-4b7c-98db-e476ad5e04a1")
-		(property "Sheetname" "Ethernet1"
-			(at 285.75 25.9584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 285.75 85.6746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ETH_10T1S_TRXN" input
-			(at 349.25 35.56 0)
-			(uuid "11ec80e3-1fc3-420f-bfa5-cf267c8b5758")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ETH_10T1S_TRXP" input
-			(at 349.25 39.37 0)
-			(uuid "82d7091e-c9ac-406d-8d8f-4dc988dc0a5a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IRQ_N_3V3" input
-			(at 285.75 43.18 180)
-			(uuid "b448b382-70c0-4ea7-81b4-b5bf0c65c67c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RESET_N" input
-			(at 285.75 48.26 180)
-			(uuid "58e89161-4e1d-4c04-909a-d25080d4698e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_CS_N" input
-			(at 285.75 54.61 180)
-			(uuid "a5a58108-a17a-47bc-80fd-eb97ef2fdba8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_SCLK" input
-			(at 285.75 58.42 180)
-			(uuid "c90042fd-8e5a-4300-8b40-64bafabefcb1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_SDI" input
-			(at 285.75 62.23 180)
-			(uuid "eadeb2be-103a-4101-915b-fc8c1bf8ce8d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_SDO" input
-			(at 285.75 66.04 180)
-			(uuid "46d54491-39bd-4b08-9854-1c2063595ebb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WAKE_IN_3V3" input
-			(at 285.75 69.85 180)
-			(uuid "ae4ca300-e539-46d5-8393-7ee878eb6d45")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "WAKE_OUT" input
-			(at 285.75 73.66 180)
-			(uuid "91f50b4c-915a-4a75-b889-b3eed4c3a22a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "HITLBoardV0P1"
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07"
-					(page "4")
 				)
 			)
 		)
