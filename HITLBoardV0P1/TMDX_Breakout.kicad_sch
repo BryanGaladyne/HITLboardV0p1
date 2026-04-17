@@ -4394,6 +4394,16 @@
 		)
 		(uuid "e1d0c6a5-6940-4a97-bde9-b48d865eccd3")
 	)
+	(wire
+		(pts
+			(xy 105.41 46.99) (xy 119.38 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6922fe1-88b1-4f08-8a2b-0c09a316b8eb")
+	)
 	(label "SCI1_RX"
 		(at 158.75 147.32 0)
 		(effects
@@ -4453,6 +4463,39 @@
 			(justify left bottom)
 		)
 		(uuid "efbe88e3-3200-4baa-9f05-e0027d9c283d")
+	)
+	(hierarchical_label "SPI5_SOMI_0"
+		(shape input)
+		(at 119.38 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03f572a9-329c-4034-996a-c554ffab5f03")
+	)
+	(hierarchical_label "SPI5_SIMO_0"
+		(shape input)
+		(at 35.56 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05b03c9f-8fa6-4ea7-98ff-fa7abda2877a")
+	)
+	(hierarchical_label "SPI5_CS1_NR"
+		(shape input)
+		(at 35.56 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0fa7b501-e5a8-4565-92c3-f3116bb6c87a")
 	)
 	(hierarchical_label "GIOA_7"
 		(shape input)
@@ -4575,6 +4618,17 @@
 		)
 		(uuid "aab2c2fd-b5e2-471d-8486-6fdf83438973")
 	)
+	(hierarchical_label "SPI5_CS0_N"
+		(shape input)
+		(at 119.38 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af873926-8344-4170-afb4-18359900ec9b")
+	)
 	(hierarchical_label "GIOA_1"
 		(shape input)
 		(at 154.94 165.1 180)
@@ -4651,6 +4705,17 @@
 			(justify right)
 		)
 		(uuid "fb824651-2af7-4a5f-8b83-6559f53d9d77")
+	)
+	(hierarchical_label "SPI5_SCLK"
+		(shape input)
+		(at 119.38 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbd0102c-ca29-4c79-86db-1a5e9ca41b20")
 	)
 	(symbol
 		(lib_id "power:GND")

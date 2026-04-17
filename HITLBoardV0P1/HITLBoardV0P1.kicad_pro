@@ -765,7 +765,7 @@
         "uuid": "ef043e91-6391-40b5-b326-2e3f2f5d4c07"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U24",
     "variants": []
   },
   "sheets": [
@@ -812,6 +812,10 @@
     [
       "68c2b973-27dd-4e06-92b6-3bc406915738",
       "dac4"
+    ],
+    [
+      "6e0acfce-3923-4d65-b62d-541c4a9771e5",
+      "CurrentInstrument"
     ]
   ],
   "text_variables": {},
