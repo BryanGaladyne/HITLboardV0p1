@@ -765,7 +765,7 @@
         "uuid": "ef043e91-6391-40b5-b326-2e3f2f5d4c07"
       }
     ],
-    "used_designators": "U24,#PWR320-322,C138,R66-70",
+    "used_designators": "R74-82,D3-4,#PWR325-326,Q3-4",
     "variants": []
   },
   "sheets": [
@@ -820,6 +820,14 @@
     [
       "a81c1914-996a-4321-9150-c061c1bb25a9",
       "I2C_GPIO_EXPANDER"
+    ],
+    [
+      "0b09d8a7-5bec-4148-8bd3-d24daeda237a",
+      "Solenoid-Valve"
+    ],
+    [
+      "ea3e62fc-71c0-41dd-b681-826cd61413a5",
+      "Solenoid-Valve1"
     ]
   ],
   "text_variables": {},

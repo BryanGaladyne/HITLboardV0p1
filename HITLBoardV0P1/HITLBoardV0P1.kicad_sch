@@ -542,6 +542,26 @@
 	)
 	(wire
 		(pts
+			(xy 513.08 213.36) (xy 537.21 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d3af39-8cca-4435-80cc-1e00e0261dc0")
+	)
+	(wire
+		(pts
+			(xy 226.06 165.1) (xy 248.92 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266d8c6a-1b82-4f06-80c5-b955e4830ef7")
+	)
+	(wire
+		(pts
 			(xy 381 317.5) (xy 403.86 317.5)
 		)
 		(stroke
@@ -1122,6 +1142,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 209.55) (xy 187.96 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34ec2d7-11db-46f6-89bb-0e3615a9cd75")
+	)
+	(wire
+		(pts
 			(xy 387.35 49.53) (xy 406.4 49.53)
 		)
 		(stroke
@@ -1212,6 +1242,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 133.35) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53ebddd-17c7-4639-89df-f05d28875743")
+	)
+	(wire
+		(pts
 			(xy 290.83 303.53) (xy 314.96 303.53)
 		)
 		(stroke
@@ -1239,6 +1279,16 @@
 			(type default)
 		)
 		(uuid "b8c68eef-edce-41bd-9a3b-410dfeb7023e")
+	)
+	(wire
+		(pts
+			(xy 226.06 209.55) (xy 248.92 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b911690a-99ba-435e-89c6-e180d6c0bbef")
 	)
 	(wire
 		(pts
@@ -1339,6 +1389,16 @@
 			(type default)
 		)
 		(uuid "cbf24430-06e9-4cec-90bf-9e52ba9d387b")
+	)
+	(wire
+		(pts
+			(xy 167.64 165.1) (xy 187.96 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5cc54a-93a3-47af-8ca0-7aece3671148")
 	)
 	(wire
 		(pts
@@ -1570,6 +1630,16 @@
 		)
 		(uuid "0211a4f6-6e95-49e3-b0ac-38b3da1c73e2")
 	)
+	(label "SV_ON_1"
+		(at 519.43 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "039ff178-bbcc-46fc-b20a-fcb3d16e6df8")
+	)
 	(label "LAN_WAKE_1"
 		(at 438.15 73.66 0)
 		(effects
@@ -1689,6 +1759,16 @@
 			(justify left bottom)
 		)
 		(uuid "1bcde5c4-e002-41ef-ad1b-ea9f18e03d63")
+	)
+	(label "SV_EN_1"
+		(at 171.45 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1eb6b2de-307b-4678-9217-a8931b05a4ce")
 	)
 	(label "LAN1_RESET_N"
 		(at 307.34 53.34 0)
@@ -1899,6 +1979,16 @@
 			(justify left bottom)
 		)
 		(uuid "483825c7-5d55-4e82-a324-071c1aba4d67")
+	)
+	(label "SV_EN_1"
+		(at 97.79 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49333805-bf8b-45ca-bdb8-336f674ce5c9")
 	)
 	(label "DAC_CLR3"
 		(at 476.25 321.31 90)
@@ -2190,6 +2280,16 @@
 		)
 		(uuid "811dac0d-88c1-4c62-810a-13971fd4e6dd")
 	)
+	(label "SV_ON_1"
+		(at 232.41 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "854d2a11-e910-4cdd-b0b9-70c61451756f")
+	)
 	(label "RPI_I2C_SCL"
 		(at 440.69 209.55 0)
 		(effects
@@ -2279,6 +2379,16 @@
 			(justify left bottom)
 		)
 		(uuid "9803302c-915b-4801-a64a-e7dbcba8b386")
+	)
+	(label "SV_ON_1"
+		(at 232.41 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "994ed5dd-34d6-438b-8eb7-dadd46f23cba")
 	)
 	(label "RPI_SPI1_MOSI"
 		(at 215.9 340.36 0)
@@ -2569,6 +2679,16 @@
 			(justify left bottom)
 		)
 		(uuid "d472c337-0150-4cc3-90e6-6b2b723c8fd1")
+	)
+	(label "SV_EN_1"
+		(at 171.45 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d63e1d20-c1d2-4f79-b729-dd271bd7776e")
 	)
 	(label "TMDX_SPI1_CS0_N"
 		(at 99.06 69.85 0)
@@ -2952,6 +3072,72 @@
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07"
 					(reference "#PWR0322")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 146.05)
+		(size 38.1 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0b09d8a7-5bec-4148-8bd3-d24daeda237a")
+		(property "Sheetname" "Solenoid-Valve"
+			(at 187.96 145.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SolenoidValve.kicad_sch"
+			(at 187.96 183.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SV_EN_3V3" input
+			(at 187.96 165.1 180)
+			(uuid "c9fd797e-9c34-46c3-a322-91d5d4e55faa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SV_ON_3V3" input
+			(at 226.06 165.1 0)
+			(uuid "1ee96413-8b6f-4b6a-b28e-5cde63fbd680")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HITLBoardV0P1"
+				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07"
+					(page "14")
 				)
 			)
 		)
@@ -4558,6 +4744,72 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 190.5)
+		(size 38.1 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ea3e62fc-71c0-41dd-b681-826cd61413a5")
+		(property "Sheetname" "Solenoid-Valve1"
+			(at 187.96 189.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SolenoidValve.kicad_sch"
+			(at 187.96 227.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SV_EN_3V3" input
+			(at 187.96 209.55 180)
+			(uuid "d5450407-6060-4072-a05f-b62af5a71212")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SV_ON_3V3" input
+			(at 226.06 209.55 0)
+			(uuid "a6d33b85-7520-4775-9e9e-04e718687c50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HITLBoardV0P1"
+				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07"
+					(page "15")
 				)
 			)
 		)
