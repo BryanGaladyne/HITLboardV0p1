@@ -548,25 +548,13 @@
       "/Ethernet/ETH_10T1S_TRXN": [
         "ETH_10T1S"
       ],
-      "/Ethernet/ETH_10T1S_TRXN_N": [
-        "ETH_10T1S"
-      ],
       "/Ethernet/ETH_10T1S_TRXP": [
-        "ETH_10T1S"
-      ],
-      "/Ethernet/ETH_10T1S_TRXP_P": [
         "ETH_10T1S"
       ],
       "/Ethernet/TRXN": [
         "ETH_10T1S"
       ],
-      "/Ethernet/TRXN_N": [
-        "ETH_10T1S"
-      ],
       "/Ethernet/TRXP": [
-        "ETH_10T1S"
-      ],
-      "/Ethernet/TRXP_P": [
         "ETH_10T1S"
       ],
       "/Ethernet1/ETH_10T1S_TRXN": [
@@ -603,6 +591,30 @@
         "ETH_10T1S"
       ],
       "/Ethernet3/TRXP": [
+        "ETH_10T1S"
+      ],
+      "/ethernet3/ETH_10T1S_TRXN": [
+        "ETH_10T1S"
+      ],
+      "/ethernet3/ETH_10T1S_TRXP": [
+        "ETH_10T1S"
+      ],
+      "/ethernet3/TRXN": [
+        "ETH_10T1S"
+      ],
+      "/ethernet3/TRXP": [
+        "ETH_10T1S"
+      ],
+      "/ethernet4/ETH_10T1S_TRXN": [
+        "ETH_10T1S"
+      ],
+      "/ethernet4/ETH_10T1S_TRXP": [
+        "ETH_10T1S"
+      ],
+      "/ethernet4/TRXN": [
+        "ETH_10T1S"
+      ],
+      "/ethernet4/TRXP": [
         "ETH_10T1S"
       ]
     },
@@ -736,7 +748,7 @@
         "uuid": "ef043e91-6391-40b5-b326-2e3f2f5d4c07"
       }
     ],
-    "used_designators": "#PWR131-135,J2",
+    "used_designators": "C51-100,R17-32,U6-9,XTAL3-4,#PWR70,#PWR72,#PWR74,#PWR137-229,NT1-2",
     "variants": []
   },
   "sheets": [
@@ -759,6 +771,14 @@
     [
       "1802981a-1ca5-49a5-8666-49bc80282853",
       "RaspberryPiPico"
+    ],
+    [
+      "86ee791a-28db-465c-ad77-a1656b37a092",
+      "ethernet3"
+    ],
+    [
+      "245d510b-873d-48ad-9583-43fdbf20b554",
+      "ethernet4"
     ]
   ],
   "text_variables": {},

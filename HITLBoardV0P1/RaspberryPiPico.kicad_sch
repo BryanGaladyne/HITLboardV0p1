@@ -5,378 +5,6 @@
 	(uuid "99766c2f-f351-4143-94ad-ea80e6512c5b")
 	(paper "B")
 	(lib_symbols
-		(symbol "Connector:USB_B_Micro"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -5.08 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_B_Micro"
-				(at -5.08 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB Micro Type B connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector USB micro"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "USB*Micro*B*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USB_B_Micro_0_1"
-				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
-						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.81 2.159)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.635 3.429)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.127 -7.62)
-					(end 0.127 -6.858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 1.27)
-					(end -0.508 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -0.127)
-					(end 4.318 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -5.207)
-					(end 4.318 -4.953)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_B_Micro_1_1"
-				(pin power_out line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "ID"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GaladyneConnectorsLibrary:FTSH-105-01-L-DV"
 			(pin_names
 				(offset 0.254)
@@ -2508,19 +2136,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 246.38 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e7016ca-1ffb-4ddb-93e1-59be02878cfe")
-	)
 	(no_connect
 		(at 208.28 132.08)
 		(uuid "2a18661a-84c5-4d67-b086-c0960680c8d3")
-	)
-	(no_connect
-		(at 256.54 86.36)
-		(uuid "5f5cbfde-d764-4c4c-9fc1-1868a8a2f390")
 	)
 	(no_connect
 		(at 96.52 76.2)
@@ -2577,16 +2195,6 @@
 			(type default)
 		)
 		(uuid "0ebf8ab2-9496-4528-b88a-9337f48fe08c")
-	)
-	(wire
-		(pts
-			(xy 246.38 91.44) (xy 248.92 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a47ab67-32ad-4cef-a9d7-22aa29ce34da")
 	)
 	(wire
 		(pts
@@ -2670,26 +2278,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 83.82) (xy 273.05 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c733ec7-e42b-4650-93f2-fcdd34ff66a7")
-	)
-	(wire
-		(pts
-			(xy 256.54 81.28) (xy 273.05 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a0f63fa-bc99-4f78-a2e1-73171ac53f39")
-	)
-	(wire
-		(pts
 			(xy 146.05 109.22) (xy 162.56 109.22)
 		)
 		(stroke
@@ -2727,16 +2315,6 @@
 			(type default)
 		)
 		(uuid "79d054a4-8bb5-4ff2-b54f-07aa131be971")
-	)
-	(wire
-		(pts
-			(xy 256.54 76.2) (xy 273.05 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cc7255f-9be1-416b-8f90-219875a93f33")
 	)
 	(wire
 		(pts
@@ -2880,16 +2458,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 96.52) (xy 224.79 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb9d6af-fc42-4570-b78c-211ad87e147b")
-	)
-	(wire
-		(pts
 			(xy 185.42 86.36) (xy 185.42 72.39)
 		)
 		(stroke
@@ -2978,16 +2546,6 @@
 		)
 		(uuid "ed950907-9833-438f-8d95-3377045b79f8")
 	)
-	(wire
-		(pts
-			(xy 208.28 99.06) (xy 224.79 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eef68e56-b030-410e-9af7-ecaffa88fca2")
-	)
 	(label "TDI"
 		(at 100.33 73.66 0)
 		(effects
@@ -3028,16 +2586,6 @@
 		)
 		(uuid "3efb0eff-f1ff-46f0-bcb5-1f87b3f6e34f")
 	)
-	(label "USB_2P0_D_P"
-		(at 259.08 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "572b55ee-63ca-41b8-9765-b77e06e106e2")
-	)
 	(label "SWDIO"
 		(at 148.59 96.52 0)
 		(effects
@@ -3047,16 +2595,6 @@
 			(justify left bottom)
 		)
 		(uuid "591db622-b3e3-4df9-8979-bbeafe3053ae")
-	)
-	(label "USB_2P0_D_N"
-		(at 210.82 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7413a1b1-a73c-4762-ae22-2ce83cb56242")
 	)
 	(label "USB_VBUS"
 		(at 189.23 72.39 0)
@@ -3098,26 +2636,6 @@
 		)
 		(uuid "b3c239a5-4c84-4a10-8ced-1c10a8d9edca")
 	)
-	(label "USB_2P0_D_N"
-		(at 259.08 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5d5b085-7531-4eef-954a-0d25f11c087e")
-	)
-	(label "USB_2P0_D_P"
-		(at 210.82 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c63a72ef-f271-4b1e-a7eb-d3ae97276b57")
-	)
 	(label "RESET_N"
 		(at 148.59 101.6 0)
 		(effects
@@ -3137,16 +2655,6 @@
 			(justify left bottom)
 		)
 		(uuid "d3dc9e92-13a0-4476-addc-ecbd8d104994")
-	)
-	(label "USB_VBUS"
-		(at 260.35 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eedfc5c0-42df-4e0b-836a-be28c79c5230")
 	)
 	(label "SWCLK"
 		(at 100.33 83.82 0)
@@ -3628,98 +3136,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_B_Micro")
-		(at 248.92 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "429fb12a-75d1-4cbd-b513-533b249223a3")
-		(property "Reference" "J1"
-			(at 248.92 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_B_Micro"
-			(at 248.92 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB Micro Type B connector"
-			(at 248.92 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1aac2eac-aba0-475b-9927-d182f4c49a3a")
-		)
-		(pin "4"
-			(uuid "fa566ad8-9077-4cda-906f-174095c53997")
-		)
-		(pin "1"
-			(uuid "11b1b580-eef9-42c7-8ed1-fae0e3794dfe")
-		)
-		(pin "3"
-			(uuid "acdae515-f035-4932-99a0-46bc41d0b225")
-		)
-		(pin "SH"
-			(uuid "9df0e3e9-16df-4259-9771-2263b80597d0")
-		)
-		(pin "5"
-			(uuid "8dbaa91f-19e4-4d06-9d8b-f5377207801e")
-		)
-		(instances
-			(project "HITLBoardV0P1"
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/1802981a-1ca5-49a5-8666-49bc80282853"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 114.3 86.36 90)
 		(unit 1)
@@ -4185,84 +3601,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/1802981a-1ca5-49a5-8666-49bc80282853"
 					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 246.38 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae1cda77-59f8-4b3c-b9f2-8dfa82fe562e")
-		(property "Reference" "#PWR0129"
-			(at 246.38 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 246.38 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e02dbdf-2b79-4f6b-bd47-abdd5723e931")
-		)
-		(instances
-			(project "HITLBoardV0P1"
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/1802981a-1ca5-49a5-8666-49bc80282853"
-					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
