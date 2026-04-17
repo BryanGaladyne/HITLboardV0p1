@@ -8686,8 +8686,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 250.19 204.47 90)
-			(hide yes)
+			(at 250.19 215.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8697,8 +8696,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 250.19 204.47 90)
-			(hide yes)
+			(at 250.19 218.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

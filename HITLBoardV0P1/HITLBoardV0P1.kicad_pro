@@ -765,7 +765,7 @@
         "uuid": "ef043e91-6391-40b5-b326-2e3f2f5d4c07"
       }
     ],
-    "used_designators": "U24",
+    "used_designators": "U24,#PWR320-322,C138,R66-70",
     "variants": []
   },
   "sheets": [
@@ -816,6 +816,10 @@
     [
       "6e0acfce-3923-4d65-b62d-541c4a9771e5",
       "CurrentInstrument"
+    ],
+    [
+      "a81c1914-996a-4321-9150-c061c1bb25a9",
+      "I2C_GPIO_EXPANDER"
     ]
   ],
   "text_variables": {},
