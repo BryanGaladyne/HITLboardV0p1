@@ -2862,10 +2862,6 @@
 					(reference "C117")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "C103")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2942,10 +2938,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "#PWR0269")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -3045,10 +3037,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "R39")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3155,10 +3143,6 @@
 					(reference "C119")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "C102")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3263,10 +3247,6 @@
 					(reference "C120")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "C106")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3343,10 +3323,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "#PWR0265")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -3518,10 +3494,6 @@
 					(reference "U18")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "U10")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3600,10 +3572,6 @@
 					(reference "#PWR0272")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0241")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3680,10 +3648,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "#PWR0274")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -3790,10 +3754,6 @@
 					(reference "C118")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "C101")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3893,10 +3853,6 @@
 					(reference "R41")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "R34")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3973,10 +3929,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "#PWR0273")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -4058,10 +4010,6 @@
 					(reference "#PWR0278")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0245")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4138,10 +4086,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "#PWR0266")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -4222,10 +4166,6 @@
 					(reference "#PWR0281")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0243")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4302,10 +4242,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "#PWR0279")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -4410,10 +4346,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "C116")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -4526,10 +4458,6 @@
 					(reference "U17")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "U12")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4608,10 +4536,6 @@
 					(reference "#PWR0270")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0240")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4688,10 +4612,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "#PWR0277")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -4804,10 +4724,6 @@
 					(reference "U16")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "U11")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4884,10 +4800,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "#PWR0268")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0242")
 					(unit 1)
 				)
 			)
@@ -4967,10 +4879,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "#PWR0275")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -5077,10 +4985,6 @@
 					(reference "C121")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "C107")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5157,10 +5061,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "#PWR0276")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -5242,10 +5142,6 @@
 					(reference "#PWR0271")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0236")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5325,10 +5221,6 @@
 					(reference "#PWR0267")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0235")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5405,10 +5297,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "#PWR0282")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0244")
 					(unit 1)
 				)
 			)
@@ -5508,10 +5396,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "R40")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -5618,10 +5502,6 @@
 					(reference "C115")
 					(unit 1)
 				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "C104")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5698,10 +5578,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "#PWR0280")
-					(unit 1)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "#PWR0230")
 					(unit 1)
 				)
 			)
@@ -5877,10 +5753,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/ca72ec07-7ec7-4216-9de2-19120c01e861"
 					(reference "U18")
-					(unit 2)
-				)
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/d573e53b-b504-4cc7-b5b3-54d41683397f"
-					(reference "U10")
 					(unit 2)
 				)
 			)
