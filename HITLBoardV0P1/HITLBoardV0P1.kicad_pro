@@ -765,7 +765,7 @@
         "uuid": "ef043e91-6391-40b5-b326-2e3f2f5d4c07"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C108-128,R36-44,U13-21,#PWR247-300",
     "variants": []
   },
   "sheets": [
@@ -800,6 +800,18 @@
     [
       "d573e53b-b504-4cc7-b5b3-54d41683397f",
       "DAC"
+    ],
+    [
+      "4137a5af-06b7-4c5b-8763-5d56af6d71c1",
+      "dac2"
+    ],
+    [
+      "ca72ec07-7ec7-4216-9de2-19120c01e861",
+      "dac3"
+    ],
+    [
+      "68c2b973-27dd-4e06-92b6-3bc406915738",
+      "dac4"
     ]
   ],
   "text_variables": {},
