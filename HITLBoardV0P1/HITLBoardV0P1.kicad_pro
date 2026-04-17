@@ -197,7 +197,8 @@
         0.0,
         0.127,
         0.2032,
-        0.254
+        0.254,
+        0.381
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -241,6 +242,10 @@
         {
           "diameter": 0.508,
           "drill": 0.254
+        },
+        {
+          "diameter": 0.762,
+          "drill": 0.381
         }
       ],
       "zones_allow_external_fillets": false
@@ -545,6 +550,18 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/ETH_10T1S_A_TRXN": [
+        "ETH_10T1S"
+      ],
+      "/ETH_10T1S_A_TRXP": [
+        "ETH_10T1S"
+      ],
+      "/ETH_10T1S_B_TRXN": [
+        "ETH_10T1S"
+      ],
+      "/ETH_10T1S_B_TRXP": [
+        "ETH_10T1S"
+      ],
       "/Ethernet/ETH_10T1S_TRXN": [
         "ETH_10T1S"
       ],
@@ -748,7 +765,7 @@
         "uuid": "ef043e91-6391-40b5-b326-2e3f2f5d4c07"
       }
     ],
-    "used_designators": "C51-100,R17-32,U6-9,XTAL3-4,#PWR70,#PWR72,#PWR74,#PWR137-229,NT1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -779,6 +796,10 @@
     [
       "245d510b-873d-48ad-9583-43fdbf20b554",
       "ethernet4"
+    ],
+    [
+      "d573e53b-b504-4cc7-b5b3-54d41683397f",
+      "DAC"
     ]
   ],
   "text_variables": {},
