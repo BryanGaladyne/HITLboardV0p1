@@ -1641,6 +1641,17 @@
 		)
 		(uuid "273597f7-4096-47bc-80ac-7c4464c2763d")
 	)
+	(hierarchical_label "RESET_N"
+		(shape input)
+		(at 127 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b042014-3746-48c2-b9c6-05779d6cecab")
+	)
 	(hierarchical_label "GP2"
 		(shape input)
 		(at 223.52 118.11 0)

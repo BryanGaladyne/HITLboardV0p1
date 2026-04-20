@@ -2196,7 +2196,7 @@
 		(fields_autoplaced yes)
 		(uuid "50572b2b-9125-4683-9367-5924532dea98")
 		(property "Reference" "D2"
-			(at 223.52 85.4074 90)
+			(at 223.52 82.8674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2207,7 +2207,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 223.52 87.9474 90)
+			(at 223.52 85.4074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2218,7 +2218,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
-			(at 223.52 90.4874 90)
+			(at 223.52 87.9474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2262,25 +2262,25 @@
 			)
 		)
 		(property "MFG" "Rohm Semiconductor"
-			(at 219.71 86.36 90)
-			(hide yes)
+			(at 223.52 90.4874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "MPN" "SML-P12M2TT86R"
-			(at 219.71 86.36 90)
-			(hide yes)
+			(at 223.52 93.0274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "1"

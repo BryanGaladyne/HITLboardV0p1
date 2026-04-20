@@ -4186,6 +4186,26 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 102.87) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10070354-faac-4ec0-82be-e26910a25b5e")
+	)
+	(wire
+		(pts
+			(xy 154.94 182.88) (xy 173.99 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111d9fe2-7868-4a83-8d07-a9a60b9b5695")
+	)
+	(wire
+		(pts
 			(xy 154.94 175.26) (xy 173.99 175.26)
 		)
 		(stroke
@@ -4508,6 +4528,17 @@
 		)
 		(uuid "1a184955-4bdb-4ecf-b8d9-b5684466ef81")
 	)
+	(hierarchical_label "GIOB_7"
+		(shape input)
+		(at 154.94 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "373c2167-45ba-4587-adfa-2874a0fcb74e")
+	)
 	(hierarchical_label "SCI4_RX"
 		(shape input)
 		(at 152.4 208.28 180)
@@ -4716,6 +4747,17 @@
 			(justify left)
 		)
 		(uuid "fbd0102c-ca29-4c79-86db-1a5e9ca41b20")
+	)
+	(hierarchical_label "POR_RESET_N"
+		(shape input)
+		(at 121.92 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff6631a7-f5d3-4dec-928a-265b049147de")
 	)
 	(symbol
 		(lib_id "power:GND")
