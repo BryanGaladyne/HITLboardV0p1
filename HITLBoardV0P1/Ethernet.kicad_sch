@@ -2085,12 +2085,6 @@
 		(uuid "1d8a3b74-230f-4d4f-92b1-ed504d4bdb0f")
 	)
 	(junction
-		(at 111.76 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3078e2ae-c7d3-4565-9bb6-2927f7dd11b5")
-	)
-	(junction
 		(at 398.78 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2151,12 +2145,6 @@
 		(uuid "aa989602-1961-4e60-b6af-4f018375b4db")
 	)
 	(junction
-		(at 110.49 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adc3106f-1f2e-4e75-92e9-80d9f3b9e0b5")
-	)
-	(junction
 		(at 196.85 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2174,15 +2162,13 @@
 		(color 0 0 0 0)
 		(uuid "e079b23c-5bb7-405b-979f-3f2b308ef4b6")
 	)
-	(junction
-		(at 111.76 234.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0bda868-eb0f-434a-ad89-ab5d0ff851c6")
-	)
 	(no_connect
 		(at 99.06 59.69)
 		(uuid "4320a3c3-dd81-472e-a46b-bc7f9f661ecd")
+	)
+	(no_connect
+		(at 306.07 124.46)
+		(uuid "83f6bdc1-a2ee-4502-a297-7ae1d0b0dbc1")
 	)
 	(no_connect
 		(at 43.18 46.99)
@@ -3378,6 +3364,16 @@
 		)
 		(uuid "49a18014-af42-4a0b-93cf-d81918723338")
 	)
+	(label "1V8_U2"
+		(at 124.46 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d3e397c-84a2-4ed5-9345-2e088e05ae60")
+	)
 	(label "TRX_DP"
 		(at 105.41 54.61 0)
 		(effects
@@ -3448,6 +3444,16 @@
 		)
 		(uuid "88b6b761-a465-431a-b0f7-6b860ec621f4")
 	)
+	(label "1V8_U2"
+		(at 125.73 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c8ee382-970d-423b-8371-6d21a3fefe1d")
+	)
 	(label "U3_DAP"
 		(at 290.83 129.54 0)
 		(effects
@@ -3467,6 +3473,16 @@
 			(justify left bottom)
 		)
 		(uuid "8feee76f-5279-46c4-9b57-e4dbc4f6f095")
+	)
+	(label "1V8_U2"
+		(at 124.46 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90646a89-461c-4fa3-9848-3dcd9fb283b8")
 	)
 	(label "1V8_U2"
 		(at 297.18 186.69 0)
@@ -3900,84 +3916,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/6becc135-232b-4527-b22e-5ca59c61a748"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 111.76 234.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03787fc6-799c-4668-b91b-f2f7f2dff4b9")
-		(property "Reference" "#PWR024"
-			(at 111.76 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 111.76 229.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 111.76 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85bd05a4-ce3f-44d7-895f-d140ae35d337")
-		)
-		(instances
-			(project "HITLBoardV0P1"
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/6becc135-232b-4527-b22e-5ca59c61a748"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4920,84 +4858,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 111.76 198.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17e9bae8-d720-4b49-8df1-1a863b9f1938")
-		(property "Reference" "#PWR022"
-			(at 111.76 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 111.76 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 111.76 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "748d3baa-171b-45ba-b16f-d8017b786190")
-		)
-		(instances
-			(project "HITLBoardV0P1"
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/6becc135-232b-4527-b22e-5ca59c61a748"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 156.21 49.53 0)
 		(unit 1)
@@ -5382,84 +5242,6 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/6becc135-232b-4527-b22e-5ca59c61a748"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 110.49 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2299b823-e4ff-479d-8e80-c051396bf954")
-		(property "Reference" "#PWR020"
-			(at 110.49 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 110.49 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 110.49 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9b213d4-f58c-4ff1-8ad1-0b85d659a3ac")
-		)
-		(instances
-			(project "HITLBoardV0P1"
-				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/6becc135-232b-4527-b22e-5ca59c61a748"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11540,15 +11322,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group "LAN8650"
-		(uuid "83b5f69e-2f53-4e1d-922f-f0aac0eeb647")
-		(lib_id "EthernetDesignBlocks:LAN8650")
-		(members "00fd7851-591d-40ee-a3d5-673cf249c436" "03787fc6-799c-4668-b91b-f2f7f2dff4b9"
-			"17e9bae8-d720-4b49-8df1-1a863b9f1938" "2299b823-e4ff-479d-8e80-c051396bf954"
-			"3078e2ae-c7d3-4565-9bb6-2927f7dd11b5" "99fd490b-ae06-459f-9db1-8e0f20a7b4fc"
-			"adc3106f-1f2e-4e75-92e9-80d9f3b9e0b5" "f0bda868-eb0f-434a-ad89-ab5d0ff851c6"
 		)
 	)
 )
