@@ -2348,6 +2348,12 @@
 		(uuid "00ef808c-6e41-4e53-a1de-efe212ad970b")
 	)
 	(junction
+		(at 185.42 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30e4862e-9db9-415a-b02e-09775ee53de9")
+	)
+	(junction
 		(at 71.12 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2418,6 +2424,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc6f62b7-1bf7-4838-8da5-4ae7ff1aaf23")
+	)
+	(no_connect
+		(at 176.53 199.39)
+		(uuid "14648561-118c-45fa-961e-861d9c4a289d")
+	)
+	(no_connect
+		(at 176.53 203.2)
+		(uuid "82668ef1-fbe8-400f-8fce-daee3a7ff126")
 	)
 	(wire
 		(pts
@@ -2641,6 +2655,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 151.13) (xy 24.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c67dfb0-f595-4ff0-97b5-6d7c322e7c1e")
+	)
+	(wire
+		(pts
 			(xy 123.19 200.66) (xy 139.7 200.66)
 		)
 		(stroke
@@ -2688,6 +2712,16 @@
 			(type default)
 		)
 		(uuid "382e82fa-47c4-465c-86d4-4a77ddbcc901")
+	)
+	(wire
+		(pts
+			(xy 185.42 166.37) (xy 219.71 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a1abff-2a9c-4b4f-bd45-faa12ddbd240")
 	)
 	(wire
 		(pts
@@ -5200,6 +5234,84 @@
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/6e0acfce-3923-4d65-b62d-541c4a9771e5"
 					(reference "U22")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 219.71 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f0eff49-aecd-4172-9796-650acbe265f0")
+		(property "Reference" "#PWR0335"
+			(at 219.71 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 219.71 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 219.71 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61a25547-90b4-413c-9e46-ad0590f6628e")
+		)
+		(instances
+			(project "HITLBoardV0P1"
+				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/6e0acfce-3923-4d65-b62d-541c4a9771e5"
+					(reference "#PWR0335")
+					(unit 1)
 				)
 			)
 		)
@@ -8484,6 +8596,84 @@
 			(project "HITLBoardV0P1"
 				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/6e0acfce-3923-4d65-b62d-541c4a9771e5"
 					(reference "#PWR0307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 24.13 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb59bcf8-2db7-4daa-b267-7a9ec6fcb1c5")
+		(property "Reference" "#PWR0334"
+			(at 24.13 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 24.13 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 24.13 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20909f95-6c22-451b-a5ed-c101a5ea7b23")
+		)
+		(instances
+			(project "HITLBoardV0P1"
+				(path "/ef043e91-6391-40b5-b326-2e3f2f5d4c07/6e0acfce-3923-4d65-b62d-541c4a9771e5"
+					(reference "#PWR0334")
 					(unit 1)
 				)
 			)

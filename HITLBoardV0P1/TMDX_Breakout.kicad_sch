@@ -4356,6 +4356,36 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 236.22) (xy 173.99 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb8ab01-b0f6-41ce-b649-285d9e7011e6")
+	)
+	(wire
+		(pts
+			(xy 152.4 233.68) (xy 173.99 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52a1dc2-ee5a-49a4-a716-66d8dca6aff3")
+	)
+	(wire
+		(pts
+			(xy 243.84 233.68) (xy 264.16 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ae23fd-6f48-4518-be94-2a5091725004")
+	)
+	(wire
+		(pts
 			(xy 243.84 147.32) (xy 264.16 147.32)
 		)
 		(stroke
@@ -4416,6 +4446,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 238.76) (xy 264.16 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d50125-bdda-41e9-8853-665fd0777816")
+	)
+	(wire
+		(pts
 			(xy 105.41 46.99) (xy 119.38 46.99)
 		)
 		(stroke
@@ -4433,6 +4473,16 @@
 			(justify left bottom)
 		)
 		(uuid "16b97a68-1b86-400a-9099-4bca2ae49882")
+	)
+	(label "SPI3_SIMO"
+		(at 154.94 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49e721af-f4d5-4457-9464-1336b5c542d6")
 	)
 	(label "SCI4_TX"
 		(at 156.21 210.82 0)
@@ -4454,6 +4504,16 @@
 		)
 		(uuid "7c497a6c-3450-4b4c-a106-8b0360f7af63")
 	)
+	(label "SPI3_CS1_N"
+		(at 154.94 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c9cf525-4f39-4730-a437-d00bcc730bc5")
+	)
 	(label "SCI3_TX"
 		(at 156.21 203.2 0)
 		(effects
@@ -4464,6 +4524,16 @@
 		)
 		(uuid "bd219e4d-e5d9-495d-abd1-1a46959e2197")
 	)
+	(label "SPI3_SOMI"
+		(at 248.92 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d13cac4e-ab2a-4967-836f-567fa10fa77c")
+	)
 	(label "SCI3_RX"
 		(at 250.19 195.58 0)
 		(effects
@@ -4473,6 +4543,16 @@
 			(justify left bottom)
 		)
 		(uuid "ec99ff44-1fd6-4a08-ae53-7a424b1569b4")
+	)
+	(label "SPI3_CLK"
+		(at 248.92 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef57226d-d8fd-4b7b-aa47-1dc6bc39c67e")
 	)
 	(label "SCI1_TX"
 		(at 250.19 147.32 0)
@@ -4527,6 +4607,28 @@
 			(justify right)
 		)
 		(uuid "1a184955-4bdb-4ecf-b8d9-b5684466ef81")
+	)
+	(hierarchical_label "SPI3_SIMO"
+		(shape input)
+		(at 152.4 233.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a8b580b-b6fc-4cb1-9383-3afc5e9b8196")
+	)
+	(hierarchical_label "SPI3_SCLK"
+		(shape input)
+		(at 264.16 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3355c4d1-aff8-4848-a49c-d718204ced74")
 	)
 	(hierarchical_label "GIOB_7"
 		(shape input)
@@ -4615,6 +4717,28 @@
 			(justify left)
 		)
 		(uuid "73c96df7-b60f-4697-be6f-876fc78b8d5a")
+	)
+	(hierarchical_label "SPI3_CS1_N"
+		(shape input)
+		(at 152.4 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a4b824d-e271-4554-b076-8561b172d71c")
+	)
+	(hierarchical_label "SPI3_SOMI"
+		(shape input)
+		(at 264.16 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d9ef906-2ad3-4724-8433-673b9f3b77d0")
 	)
 	(hierarchical_label "GIOA_3"
 		(shape input)
