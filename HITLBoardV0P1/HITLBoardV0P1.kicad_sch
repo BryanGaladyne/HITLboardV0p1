@@ -1251,16 +1251,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 123.19) (xy 114.3 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "669d0029-62fc-4d85-95a6-d990a6d02ed6")
-	)
-	(wire
-		(pts
 			(xy 93.98 160.02) (xy 114.3 160.02)
 		)
 		(stroke
@@ -1608,16 +1598,6 @@
 			(type default)
 		)
 		(uuid "aaa4db24-be5a-430f-a6e0-2bff09f1c579")
-	)
-	(wire
-		(pts
-			(xy 130.81 322.58) (xy 151.13 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac31a465-2868-4bbc-823d-63bdc0f17591")
 	)
 	(wire
 		(pts
@@ -2759,16 +2739,6 @@
 		)
 		(uuid "69e2c800-90c6-48f2-aa08-868fa0a6763c")
 	)
-	(label "ADC_DREADY"
-		(at 97.79 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b55fd2f-2725-43ea-920d-b8ddb2854710")
-	)
 	(label "LAN_RESET_N_0"
 		(at 464.82 321.31 90)
 		(effects
@@ -2978,16 +2948,6 @@
 			(justify left bottom)
 		)
 		(uuid "8bf795b5-7435-4d55-a791-e3eb31a379bc")
-	)
-	(label "ADC_DREADY"
-		(at 134.62 322.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f19bf17-08cd-4ca0-a3bc-51d4c92ccda4")
 	)
 	(label "RPI_SPI1_MISO"
 		(at 294.64 347.98 0)
