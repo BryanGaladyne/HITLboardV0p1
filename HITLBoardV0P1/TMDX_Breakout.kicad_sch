@@ -4506,7 +4506,7 @@
 		)
 		(uuid "05b03c9f-8fa6-4ea7-98ff-fa7abda2877a")
 	)
-	(hierarchical_label "SPI5_CS1_NR"
+	(hierarchical_label "SPI5_CS1_N"
 		(shape input)
 		(at 35.56 49.53 180)
 		(effects

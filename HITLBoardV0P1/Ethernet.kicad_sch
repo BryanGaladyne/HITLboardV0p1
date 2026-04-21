@@ -3378,7 +3378,7 @@
 		)
 		(uuid "49a18014-af42-4a0b-93cf-d81918723338")
 	)
-	(label "TRXP"
+	(label "TRX_DP"
 		(at 105.41 54.61 0)
 		(effects
 			(font
@@ -3398,7 +3398,7 @@
 		)
 		(uuid "506a4873-b036-454f-96ff-fba443ec7176")
 	)
-	(label "ETH_10T1S_TRXN"
+	(label "ETH_10T1S_TRX_DN"
 		(at 340.36 38.1 0)
 		(effects
 			(font
@@ -3418,7 +3418,7 @@
 		)
 		(uuid "5d9c7181-6be8-404d-889f-0e1f27addc6c")
 	)
-	(label "TRXN"
+	(label "TRX_DN"
 		(at 105.41 52.07 0)
 		(effects
 			(font
@@ -3458,7 +3458,7 @@
 		)
 		(uuid "8d49a1d5-7ad9-4eea-9e4a-26a6d2531347")
 	)
-	(label "TRXN"
+	(label "TRX_DN"
 		(at 304.8 38.1 0)
 		(effects
 			(font
@@ -3508,7 +3508,7 @@
 		)
 		(uuid "a038af77-5da3-45c1-8c6d-c320b19e44a5")
 	)
-	(label "ETH_10T1S_TRXP"
+	(label "ETH_10T1S_TRX_DP"
 		(at 340.36 45.72 0)
 		(effects
 			(font
@@ -3578,7 +3578,7 @@
 		)
 		(uuid "c43797e4-98be-43da-8a70-f19e6ced67d8")
 	)
-	(label "TRXP"
+	(label "TRX_DP"
 		(at 304.8 78.74 0)
 		(effects
 			(font

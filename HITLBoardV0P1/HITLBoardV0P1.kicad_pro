@@ -568,10 +568,22 @@
       "/Ethernet/ETH_10T1S_TRXP": [
         "ETH_10T1S"
       ],
+      "/Ethernet/ETH_10T1S_TRX_DN": [
+        "ETH_10T1S"
+      ],
+      "/Ethernet/ETH_10T1S_TRX_DP": [
+        "ETH_10T1S"
+      ],
       "/Ethernet/TRXN": [
         "ETH_10T1S"
       ],
       "/Ethernet/TRXP": [
+        "ETH_10T1S"
+      ],
+      "/Ethernet/TRX_DN": [
+        "ETH_10T1S"
+      ],
+      "/Ethernet/TRX_DP": [
         "ETH_10T1S"
       ],
       "/Ethernet1/ETH_10T1S_TRXN": [
@@ -598,6 +610,12 @@
       "/Ethernet2/TRXP": [
         "ETH_10T1S"
       ],
+      "/Ethernet2/TRX_DN": [
+        "ETH_10T1S"
+      ],
+      "/Ethernet2/TRX_DP": [
+        "ETH_10T1S"
+      ],
       "/Ethernet3/ETH_10T1S_TRXN": [
         "ETH_10T1S"
       ],
@@ -622,6 +640,12 @@
       "/ethernet3/TRXP": [
         "ETH_10T1S"
       ],
+      "/ethernet3/TRX_DN": [
+        "ETH_10T1S"
+      ],
+      "/ethernet3/TRX_DP": [
+        "ETH_10T1S"
+      ],
       "/ethernet4/ETH_10T1S_TRXN": [
         "ETH_10T1S"
       ],
@@ -632,6 +656,12 @@
         "ETH_10T1S"
       ],
       "/ethernet4/TRXP": [
+        "ETH_10T1S"
+      ],
+      "/ethernet4/TRX_DN": [
+        "ETH_10T1S"
+      ],
+      "/ethernet4/TRX_DP": [
         "ETH_10T1S"
       ]
     },
@@ -765,7 +795,7 @@
         "uuid": "ef043e91-6391-40b5-b326-2e3f2f5d4c07"
       }
     ],
-    "used_designators": "U25,#PWR334-335",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
